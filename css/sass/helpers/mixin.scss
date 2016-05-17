@@ -1,0 +1,39 @@
+/*@mixin xxxx(){
+	width:150px;
+	height:100px;
+	display:inline-block;
+}
+
+@mixin xxxx-color($color){
+	background-color:$color;
+}
+
+.xxxx{
+	@include xxxx();
+	&.A1{@include xxxx-color($A1);}
+	&.A2{@include xxxx-color($A2);}
+	&.A3{@include xxxx-color($A3);}
+	&.A4{@include xxxx-color($A4);}
+	&.A5{@include xxxx-color($A5);}
+	&.B1{@include xxxx-color($B1);}
+	&.B2{@include xxxx-color($B2);}
+	&.B3{@include xxxx-color($B3);}
+	&.B4{@include xxxx-color($B4);}
+	&.B5{@include xxxx-color($B5);}
+	&.C1{@include xxxx-color($C1);}
+	&.C2{@include xxxx-color($C2);}
+	&.C3{@include xxxx-color($C3);}
+	&.C4{@include xxxx-color($C4);}
+	&.C5{@include xxxx-color($C5);}
+	&.D1{@include xxxx-color($D1);}
+	&.D2{@include xxxx-color($D2);}
+	&.D3{@include xxxx-color($D3);}
+	&.D4{@include xxxx-color($D4);}
+	&.D5{@include xxxx-color($D5);}
+	&.E1{@include xxxx-color($E1);}
+	&.E2{@include xxxx-color($E2);}
+	&.E3{@include xxxx-color($E3);}
+	&.E4{@include xxxx-color($E4);}
+	&.E5{@include xxxx-color($E5);}
+}
+*/

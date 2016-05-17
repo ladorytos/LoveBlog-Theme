@@ -1,0 +1,88 @@
+/* Header */
+.active{
+	padding: 10px;
+	color: $orange;
+}
+.floatright {
+	float: right;
+}
+#nav li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 40px;
+}
+#nav a{
+	text-decoration: none;
+	color: $gris;
+	padding: 10px 20px;
+	font-size: 22px;
+}
+/* logo */
+.logo h1{
+	color: $orange;
+}
+span {
+	color:$orange;
+}
+/* imagen06*/
+.ei-slider-large{
+	text-align: center;
+}
+/* service area*/
+.single_service_container h5{
+	color:$orange;
+}
+.single_service_container a{
+	color: $white;
+	padding: 10px;
+	background-color:$orange; 
+}
+.floatleft{
+	margin: 20px;
+}
+/*fix*/
+.blog_post_meta{
+	border: 1px solid #D8D8D8;
+}
+.blog_post_meta h6{
+	color: $orange;
+}
+.blog_post_meta h5{
+	color: $gris;
+	font-size: 22px;
+}
+.imagenblog {
+	width: 260px;
+}
+/*from work*/
+
+.single_footer_container{
+	background-color: $orange;
+	color: $white;
+}
+.social_area li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+
+
+/*PORTAFOLIO*/
+
+.ei-slider-large h2{
+	background-color: $orange;
+	color: $white;
+	text-align: left;
+	padding-left: 30px;
+}
+categorias {
+	float: left;
+}
+
+.active1{
+	padding: 10px;
+	color: $orange;
+}
+
+
