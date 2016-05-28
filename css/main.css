@@ -6216,10 +6216,9 @@ body {
     .fix .blog_post_meta h5 {
       color: #A4A4A4;
       font-size: 22px; }
-
-.imagenblog {
-  margin-bottom: -7px;
-  width: 100%; }
+  .fix .imagenblog {
+    margin-bottom: -7px;
+    width: 100%; }
 
 /*from work*/
 .from_work {
@@ -6244,14 +6243,17 @@ body {
   border-right: 10px solid #FFFFFF; }
 
 /*PORTAFOLIO*/
-.ei-slider-large h2 {
+.ei-slider-large h3 {
   background-color: #DF3A01;
   color: #FFFFFF;
   text-align: left;
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-bottom: 20px; }
 
-categorias {
+.categorias {
   float: left; }
+  .categorias h5 {
+    color: #000000; }
 
 .active1 {
   padding: 10px;

@@ -85,11 +85,12 @@ body{
 			font-size: 22px;
 		}
   }
-}  
-.imagenblog {
+  .imagenblog {
 	margin-bottom:-7px;
 	width: 100%;
 	}
+}  
+
 
 /*from work*/
 .from_work{
@@ -105,8 +106,6 @@ body{
 	color: $white;
 	}
 }
-
-
 /*footer_area*/
 .footer_area{
 	color:whitesmoke;
@@ -122,22 +121,23 @@ body{
 
 /*PORTAFOLIO*/
 
-.ei-slider-large h2{
+.ei-slider-large h3{
 	background-color: $orange;
 	color: $white;
 	text-align: left;
 	padding-left: 30px;
+	padding-bottom:20px;
 }
-categorias {
+.categorias {
+	h5{
+		color:$black;
+	}
 	float: left;
 }
-
 .active1{
 	padding: 10px;
 	color: $orange;
 }
-
-
 .image06 {
 	width:100%;
 }
