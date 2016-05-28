@@ -1,69 +1,121 @@
+body{
+	padding-left: 20px;
+	padding-right:20px;
+}
+
 /* Header */
 .active{
 	padding: 10px;
-	color: $orange;
+	a{
+		color: $orange;
+	}
 }
+
 .floatright {
 	float: right;
 }
-#nav li{
+#nav {
+	li{
 	list-style: none;
 	display: inline-block;
-	margin-top: 40px;
-}
-#nav a{
+	margin-top: 20px;
+	}
+	a{
 	text-decoration: none;
-	color: $gris;
+	color:$gray;
 	padding: 10px 20px;
 	font-size: 22px;
+	}
 }
 /* logo */
-.logo h1{
+.logo {
+	h1 {
 	color: $orange;
-}
-span {
+	}
+	span {
 	color:$orange;
+	}
 }
 /* imagen06*/
 .ei-slider-large{
 	text-align: center;
 }
 /* service area*/
-.single_service_container h5{
+.single_service_container {
+	margin-left: 20px;
+	h5{
 	color:$orange;
-}
-.single_service_container a{
+	}
+	 a{
 	color: $white;
 	padding: 10px;
 	background-color:$orange; 
-}
-.floatleft{
+	}
+	.floatleft{
 	margin: 20px;
+	}
+	.foto1{
+		float: left;
+		margin-right: 10px;
+	}
+}
+.es{
+	margin-bottom:45px;
 }
 /*fix*/
-.blog_post_meta{
-	border: 1px solid #D8D8D8;
-}
-.blog_post_meta h6{
-	color: $orange;
-}
-.blog_post_meta h5{
-	color: $gris;
-	font-size: 22px;
-}
+.fix{
+	margin:20px;
+	h4{
+		color: $orange;
+	}
+	.foto2{
+		float: right;
+		width: 80%;
+		height: 20px;
+		margin-top:15px;
+	}
+	.blog_post_meta{
+		padding-left: 10px;
+		border: 1px solid #D8D8D8;
+		 h6{
+			color: $orange;
+		}
+			h5{
+			color: $grismedio;
+			font-size: 22px;
+		}
+  }
+}  
 .imagenblog {
-	width: 260px;
-}
-/*from work*/
+	margin-bottom:-7px;
+	width: 100%;
+	}
 
-.single_footer_container{
+/*from work*/
+.from_work{
+	margin-top: 30px;
+	.foto2{
+		float: right;
+		width: 60%;
+		height: 20px;
+		margin-top:15px;
+	}
+	.single_footer_container{
 	background-color: $orange;
 	color: $white;
+	}
 }
-.social_area li{
-	list-style: none;
-	display: inline-block;
-	margin-top: 40px;
+
+
+/*footer_area*/
+.footer_area{
+	color:whitesmoke;
+	background-color: orange;
+}
+.single_footer_container{
+	background-color: $orange;
+	border-left: 10px solid $white;
+	border-right: 10px solid $white;
 }
 
 
@@ -85,4 +137,8 @@ categorias {
 	color: $orange;
 }
 
+
+.image06 {
+	width:100%;
+}
 
